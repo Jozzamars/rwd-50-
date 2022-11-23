@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+#container{
+    background-color: #E5D9B6;
+    margin: auto;
+    height: 60px;
+    max-width: 1000px;
+    color: black;
+}
+span{
+    color: black;
+    font-size: 20px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+ul{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-content: center;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+li a{
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+}
+li a:hover{
+    color:#009EFF;
+    cursor: pointer;
+}
+
+.navbar h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+.content{
+    display: grid;
+    height: 60vh;
+    width: 100%;
+    background-image: url(./image/korea1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

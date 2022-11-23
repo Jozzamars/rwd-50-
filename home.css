@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+#container{
+    background-color: #333;
+    margin: auto;
+    height: 60px;
+    max-width: 1000px;
+    color: black;
+}
+span{
+    color: #FFCE45;
+    font-size: 20px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+ul{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-content: center;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+li a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #EEEEEE;
+}
+li a:hover{
+    color:#FFEDDB;
+    cursor: pointer;
+}
+
+.navbar h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #F6FBF4;
+}
+
+
+#homepage{
+    margin-top: 20px;
+    height: 80vh;
+    width: 100%;
+    background-image: url(./image/Home.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homepage .profile{ 
+   height: 100%;
+   width: 40%;
+   float: left;
+}
+.image{
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#homepage .testimonials{
+    height: 100%; 
+    float: right;
+    width: 60%; 
+}
+.blog{
+    background-color: #393E46;
+    color: #F7F7F7;
+    font-size: 17px;
+   margin-top: 180px;
+   margin-right: 150px;
+   border-radius: 5px;
+   text-align:left;
+}
+/*FOOTER*/
+
+.footer{
+    margin-top: 20px;
+    background-color: #EEEEEE;
+    border: 1px solid red;
+}
+.social{
+    color: #333;
+    text-align: center;
+}
+.social a{
+    font-size: 24px;
+    color: inherit;
+}
+.copy{
+    text-align: center;
+    color: black;
+}
+.footer p{
+   text-align: center;
+}

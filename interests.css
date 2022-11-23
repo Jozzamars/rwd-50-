@@ -1,0 +1,124 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+span{
+    color: #FFCE45;
+}
+#navbar{
+    background-color: #333;
+    height: 60px;
+}
+#navbar h1{
+    float: left;
+    color:#F6FBF4;
+    padding: 10px;
+    font-family: sans-serif;
+}
+li{
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    color: #EDEDED;
+
+}
+ul{
+    list-style: none;
+    float: right;
+  
+}
+li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #EEEEEE;
+    
+    
+}
+li a:hover{
+    text-decoration:none ;
+    color: #FFEDDB;
+}
+
+#interest{
+    height: 10vh;
+    max-width: 100%;
+    background-color: #fdcf51;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+#interest header{
+    text-align: center; /*background color pa*/
+    width: 50%;
+    margin: auto;
+    border-radius: 3px;
+}
+#interest h4{
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#interest p{
+   text-align: center;
+}
+#images{
+    background-image: url(./image/interest7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.responsive{
+    height: 50vh;
+    width: 100%;
+    margin: 10px 10px;
+    padding: 10px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.top{
+    padding:  0 5px;
+    float:left;
+    width: 33%;
+}
+.responsive-images{
+    height: 50vh;
+    width: 100%;
+    margin: 10px 10px;
+    padding: 10px
+}
+.bottom{
+    padding:  0 5px;
+    float:left;
+    width: 33%;
+}
+.footer{
+    background-color: #EEEEEE;
+}
+.social{
+    color: #333;
+    text-align: center;
+}
+.social a{
+    font-size: 24px;
+    color: inherit;
+}
+.copy{
+    text-align: center;
+    color: black;
+}
+.footer p{
+   text-align: center;
+}
